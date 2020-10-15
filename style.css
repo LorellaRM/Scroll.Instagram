@@ -1,0 +1,90 @@
+body {
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+    
+    
+}
+.title {
+    background: white;
+    padding: 1%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+}
+.title h1{
+    margin: 0;
+    background-color: white;
+    text-align: left;
+}
+.title-class {
+    width: 450px;
+    
+}
+.container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.post {
+    background-color: white;
+    width: 450px;
+    height: fit-content;
+    align-self: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 3px;
+}
+.header {
+display: flex;
+height: 10%;
+}
+.header .logo {
+    font-size: 30px;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.header .user {
+    width: 80%;
+    line-height: 4px;
+    
+}
+.header .user :first-child {
+    font-weight: bold;
+}
+.header .options {
+    font-size: 30px;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img {
+    width: 100%;
+}
+.icons {
+    font-size: 30px;
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.icons .icons-right {
+    margin-right: 4%;
+}
+.footer > p {
+    margin: 3%;
+    margin-bottom: 4%;
+}
+.probando {
+    font-size: 5rem;
+    margin: 2%;
+}
+p span {
+    font-weight: bold;
+}
